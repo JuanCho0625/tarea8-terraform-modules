@@ -1,0 +1,5 @@
+# Solo para uso local. En HCP Terraform se definen como variables del Workspace.
+account_id       = "TU_ACCOUNT_ID"
+api_token        = "TU_API_TOKEN"
+worker_name      = "tarea-8-worker"
+d1_database_name = "tarea-8-db"
