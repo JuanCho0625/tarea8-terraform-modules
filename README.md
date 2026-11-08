@@ -32,3 +32,8 @@ desplegada desde HCP Terraform (Terraform Cloud) con un workspace conectado a Gi
 2. Agregar las variables anteriores en *Workspace > Variables*.
 3. Activar *Auto-apply* (o confirmar el apply manualmente).
 4. Hacer `git push` a `main`: HCP Terraform ejecuta plan y apply.
+
+## Workspace
+
+- Organizacion: `juancho0625-iteso`
+- Workspace: `tarea8-terraform-modules` (VCS-driven, auto-apply activado)
