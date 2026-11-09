@@ -10,5 +10,6 @@ terraform {
 }
 
 provider "cloudflare" {
-  api_token = var.api_token
+  # trimspace evita errores por saltos de linea o espacios al pegar el token en HCP
+  api_token = trimspace(var.api_token)
 }
